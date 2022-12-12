@@ -1,0 +1,12 @@
+{
+	"organisms_per_gen" : 200,
+	"rounds_per_gen" : 10,
+	"unit_base" : 30,
+	"payoff" : [
+		[0.05, 1, -1],
+		[-1, 0.05, 1],
+		[1, -1, 0.05]
+	],
+	"number_of_generations" : 20,
+	"method" : "stochastic"
+}
